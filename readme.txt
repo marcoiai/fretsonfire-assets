@@ -1,5 +1,8 @@
-                Revival of this game, the project started as to help me practice python, specially because was writen in version 2
-                and damn Python did not give a shit about retrocompatibility ( print really needed a parentethis?)
+    Revival of this game, the project started as to help me practice python, specially because was writen in version 2
+    and damn Python did not give a shit about retrocompatibility ( print really needed a parentethis?)
+
+          
+          !!!!!!!! THIS IS ONLY THE ASSETS FILES, MAKE, ETC. WITHOUT THE SRC, IT'S AT ANOTHER REPOSITORY !!!!!!!  
 
                          ___ __  __ __ __
                         /_  /_) /_  / (
