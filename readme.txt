@@ -1,3 +1,6 @@
+                Revival of this game, the project started as to help me practice python, specially because was writen in version 2
+                and damn Python did not give a shit about retrocompatibility ( print really needed a parentethis?)
+
                          ___ __  __ __ __
                         /_  /_) /_  / (
                        /   / \ /_  / __)
