@@ -106,3 +106,11 @@ Todo:
  - TODO: fix py2exe restarting
  - TODO: fix lightgraphics mod
 
+ - Support macOS newer than 12.x
+ - Support for Mac M1 (already works)
+ - Can't enter Play Game for no reason as it doesn't gives any errors, no luck with debug
+ - Editor songs is what gives hopes, as loads songLibraryChooser, Dialos (which doesn't work outside editor), music plays, everthing works
+ - Make code more efficient, I'm trying to make it work first, but there is A LOT that cousd me made better, memory related and all
+ - Someone that's really skilled in OpenGL, specially in maOS (I know, it's bad, but it's working)
+
+
