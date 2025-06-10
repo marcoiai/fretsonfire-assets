@@ -121,7 +121,7 @@ setup(version = Version.version(),
       author_email = "contact@unrealvoodoo.org",
       license = "GPLv2",
       description = "Frets on Fire is a game of musical skill and fast fingers. The aim of the game is to play guitar with the keyboard as accurately as possible.",
-      data_files = data,
+      data_files = 'data',
       options = options,
       setup_requires = setupRequires,
       *extraOpts)

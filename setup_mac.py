@@ -8,12 +8,17 @@ Usage:
 import setuptools
 from setuptools import setup
 
-import os, sys, SceneFactory, Version
+import os, sys
 script_path = os.path.realpath(os.path.dirname(__name__))
 os.chdir(script_path)
 sys.path.append("../")
+sys.path.append("./src/")
 
-import amanith
+import SceneFactory, Version
+
+#import amanith
+
+#dataFiles = ["./data"]
 
 APP = ['FretsOnFire.py']
 
@@ -21,7 +26,7 @@ OPTIONS = {
  'argv_emulation': True,
  'dist_dir': '../dist',
  'dylib_excludes': 'OpenGL,AGL',
- 'frameworks' : '../../amanith/lib/libamanith.dylib, ../../glew/lib/libGLEW.dylib', 
+ 'frameworks' : './libamanith.dylib, ../../glew/lib/libGLEW.dylib', 
  'iconfile': '../ata/icon_mac_composed.icns',
  'includes': SceneFactory.scenes,
  'excludes': ['glew.gl.apple'
@@ -71,7 +76,7 @@ setup(
     name="Frets on Fire",
     url="http://www.unrealvoodoo.org",
     app=APP,
-    data_files=dataFiles,
-    options={'pypy': OPTIONS},
-    setup_requires=['pypy'],
+    data_files="./data",
+    options={'py2app': OPTIONS},
+    setup_requires=['py2app'],
 )
